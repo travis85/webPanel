@@ -1,0 +1,25 @@
+.gridContainer{
+    background-color:gray;
+    display:  grid;
+    /* grid-template-rows: auto auto  ; */
+    grid-template-columns: auto  ;
+    overflow: hidden;
+    font-size: x-large;
+
+
+} 
+.gridItem{
+    background-color: green;
+    border: black;
+    border-style: solid;
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+p{
+    margin: auto;
+}
