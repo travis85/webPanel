@@ -1,13 +1,43 @@
+.head{
+    background-color: cadetblue;
+    padding-bottom: 30px;
+}
+#header_button{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(18, 170, 76);
+
+}
+#header_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#gridItem1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1200px-W3Schools_logo.svg.png);
+    border-style: solid;
+    margin: 5px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+/* main container */
 .gridContainer{
-    background-color:gray;
     display:  grid;
-    /* grid-template-rows: auto auto  ; */
-    grid-template-columns: auto  ;
+    grid-template-rows: auto auto auto  ;
+    grid-template-columns: auto auto ;
     overflow: hidden;
     font-size: x-large;
-
+    background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
 
 } 
+/* divs inside main cotainer */
 .gridItem{
     background-color: green;
     border: black;
