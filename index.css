@@ -15,15 +15,15 @@
     grid-template-rows: auto auto auto  ;
     grid-template-columns: auto auto ;
     overflow: hidden;
-    font-size: x-large;
+    font-size: large;
     background-image: url(https://images.unsplash.com/photo-1534567153574-2b12153a87f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8em9vfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
     background-size: cover;
+    color: white;
 
 } 
 
 /* divs inside main cotainer */
 .gridItem{
-    background-color: green;
     border: black;
     border-style: solid;
     margin: 5px;
@@ -31,8 +31,38 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+#lions{
+    background-image: url(https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 
 }
+#Aquarium{
+    background-image: url(https://wallpapercave.com/dwp2x/GPmYovh.jpg);
+    background-position: center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+#Mammals{
+    background-image: url(https://previews.123rf.com/images/anankkml/anankkml1505/anankkml150500035/40240968-groupe-d-animaux-asie-sur-fond-blanc.jpg);
+    background-position: center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+a{
+    color: white;
+    text-align: center;
+}
+
+
+
 .footer{
     background-color: cadetblue;
     margin-bottom: 5px;
