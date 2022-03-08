@@ -2,26 +2,12 @@
     background-color: cadetblue;
     padding-bottom: 30px;
 }
-#header_button{
-    margin-top: 5px;
-    margin-left: 5px;
-    color: rgb(18, 170, 76);
-
-}
-#header_button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+#welcomeTitle{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-#gridItem1{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1200px-W3Schools_logo.svg.png);
-    border-style: solid;
-    margin: 5px;
-    padding: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
 
 /* main container */
 .gridContainer{
@@ -30,13 +16,11 @@
     grid-template-columns: auto auto ;
     overflow: hidden;
     font-size: x-large;
-    background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
+    background-image: url(https://images.unsplash.com/photo-1534567153574-2b12153a87f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8em9vfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
     background-size: cover;
 
 } 
+
 /* divs inside main cotainer */
 .gridItem{
     background-color: green;
@@ -48,6 +32,16 @@
     flex-wrap: wrap;
     flex-direction: column;
 
+}
+.footer{
+    background-color: cadetblue;
+    margin-bottom: 5px;
+    width: 100%;
+    align-items: center;
+
+}
+#social{
+    
 }
 
 p{
