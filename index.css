@@ -11,6 +11,7 @@ background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-s
 }
 #welcomeTitle{
     text-align: left;
+    margin-left: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -21,15 +22,16 @@ background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-s
 }
 .selectLanguage{
     float: right;
+    margin-left: 1rem;
 
 }
 #linkhead{
     color: white;
 }
 .headerLinks{
-
     display: inline;
     margin-top: 2px;
+    margin-left: 10rem;
 }
 
 
