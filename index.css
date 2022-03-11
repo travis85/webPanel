@@ -1,15 +1,35 @@
 .head{
     padding-bottom: 30px;
-    background-image: url(https://images.unsplash.com/photo-1534567153574-2b12153a87f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8em9vfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
     background-position: center center;
     background-repeat: no-repeat;
     color: white;
 
+
+}
+.landingPage{
+background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-slate-texture-background-stone-grunge-texture-picture-id1268759368?b=1&k=20&m=1268759368&s=612x612&w=0&h=vU4BE5V-Sap5e8wZtKm6MWnuWzInStQXNd8snjsiUOY=);
 }
 #welcomeTitle{
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+#languageDrop{
+    margin-top: 0px;
+    margin-right: 5px;
+
+}
+.selectLanguage{
+    float: right;
+
+}
+#linkhead{
+    color: white;
+}
+.headerLinks{
+
+    display: inline;
+    margin-top: 2px;
 }
 
 
@@ -22,7 +42,6 @@
     font-size: large;
     background-size: cover;
     color: white;
-    background-color: black;
 
 } 
 #vistIntro{
@@ -43,7 +62,7 @@
 }
 /* add hover animation to link */
 #lions{
-    background-image: url(https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(https://images.alphacoders.com/514/thumbbig-514047.webp);
     background-position: center;
     background-size: cover;
     background-position: center center;
@@ -75,29 +94,21 @@
     background-position: center center;
 
 }
-a{
-    color: white;
-    text-align: center;
-}
 
 
 
 .footer{
-    background-color: cadetblue;
     margin-bottom: 5px;
     width: 100%;
     align-items: center;
-    background-image: url(https://images.alphacoders.com/514/thumbbig-514047.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
 
 
 }
-#social{
-    
-}
 
-p{
-    margin: auto;
-}
