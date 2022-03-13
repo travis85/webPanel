@@ -37,15 +37,25 @@ background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-s
 
 /* main container */
 .gridContainer{
-    display:  grid;
-    /* grid-template-rows: auto auto auto ; */
-    grid-template-columns: auto auto ;
-    overflow: hidden;
-    font-size: large;
-    background-size: cover;
-    color: white;
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    
+    
 } 
+.testDev{
+    background-color: black;
+    color: white;
+    justify-self: center;
+}
+.registerForm{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
 #vistIntro{
     text-align: center;
     overflow: visible;
